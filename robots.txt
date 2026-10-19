@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://artclipcris-commits.github.io/leondejuda/sitemap.xml
+Sitemap: https://leondejudamusica.es/sitemap.xml
