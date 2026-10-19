@@ -12,6 +12,7 @@
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="León de Judá">
@@ -26,6 +27,7 @@
   <meta name="twitter:title" content="León de Judá | Música cristiana y alabanzas en español">
   <meta name="twitter:description" content="Salmos cantados, alabanzas y mensajes cristianos en español.">
   <meta name="twitter:image" content="https://leondejudamusica.es/assets/img/og-image.jpg">
+  <meta name="twitter:image:alt" content="León de Judá – música cristiana y alabanzas en español">
   <link rel="preconnect" href="https://open.spotify.com">
   <link rel="preload" as="image" href="assets/img/hero-mobile.webp" media="(max-width: 799px)">
   <link rel="preload" as="image" href="assets/img/hero.webp" media="(min-width: 800px)">
@@ -33,21 +35,204 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MusicGroup",
-  "name": "León de Judá",
-  "url": "https://leondejudamusica.es/",
-  "description": "Música cristiana y alabanzas en español: salmos cantados, adoración y mensajes bíblicos.",
-  "genre": [
-    "Música cristiana",
-    "Gospel",
-    "Alabanza y adoración"
-  ],
-  "inLanguage": "es",
-  "image": "https://leondejudamusica.es/assets/img/og-image.jpg",
-  "logo": "https://leondejudamusica.es/assets/img/icon-512.png",
-  "sameAs": [
-    "https://www.youtube.com/@leondejuda2026",
-    "https://open.spotify.com/artist/5kA8755RfEC5xxtMwX4qm5"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://leondejudamusica.es/#web",
+      "url": "https://leondejudamusica.es/",
+      "name": "León de Judá",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://leondejudamusica.es/#artista"
+      }
+    },
+    {
+      "@type": "MusicGroup",
+      "name": "León de Judá",
+      "url": "https://leondejudamusica.es/",
+      "description": "Música cristiana y alabanzas en español: salmos cantados, adoración y mensajes bíblicos.",
+      "genre": [
+        "Música cristiana",
+        "Gospel",
+        "Alabanza y adoración"
+      ],
+      "image": "https://leondejudamusica.es/assets/img/og-image.jpg",
+      "logo": "https://leondejudamusica.es/assets/img/icon-512.png",
+      "sameAs": [
+        "https://www.youtube.com/@leondejuda2026",
+        "https://open.spotify.com/artist/5kA8755RfEC5xxtMwX4qm5",
+        "https://es.pinterest.com/leondejuda2026/"
+      ],
+      "@id": "https://leondejudamusica.es/#artista"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Siente la presencia de Dios: 18 canciones cristianas para adorar",
+      "description": "Siente la presencia de Dios: 18 canciones cristianas para adorar. Alabanzas cristianas de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6cOOVMAT1nw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/6cOOVMAT1nw",
+      "contentUrl": "https://www.youtube.com/watch?v=6cOOVMAT1nw",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-07",
+      "duration": "PT1H18M11S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Alabanzas cristianas para vencer el miedo y la ansiedad",
+      "description": "Alabanzas cristianas para vencer el miedo y la ansiedad. Alabanzas cristianas de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sQzlrnCgkOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/sQzlrnCgkOU",
+      "contentUrl": "https://www.youtube.com/watch?v=sQzlrnCgkOU",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-08-05",
+      "duration": "PT21M25S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Más allá de la traición: la historia de Judas en canciones",
+      "description": "Más allá de la traición: la historia de Judas en canciones. Mensajes cristianos de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/afiAF8YzjLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/afiAF8YzjLk",
+      "contentUrl": "https://www.youtube.com/watch?v=afiAF8YzjLk",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-04-26",
+      "duration": "PT3M52S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Alabanza que ahuyenta todo mal de tu casa | Música cristiana",
+      "description": "Alabanza que ahuyenta todo mal de tu casa | Música cristiana. Alabanzas cristianas de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pw2xjcZuAkE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pw2xjcZuAkE",
+      "contentUrl": "https://www.youtube.com/watch?v=pw2xjcZuAkE",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-03-29",
+      "duration": "PT3M32S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Levántate, todavía te queda camino | Mensaje cristiano",
+      "description": "Levántate, todavía te queda camino | Mensaje cristiano. Mensajes cristianos de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GHTnDgtgj5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GHTnDgtgj5E",
+      "contentUrl": "https://www.youtube.com/shorts/GHTnDgtgj5E",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-16",
+      "duration": "PT1M17S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Cambiaste mi lamento – Salmo 30 | Canción cristiana",
+      "description": "Cambiaste mi lamento – Salmo 30 | Canción cristiana. Versículos de la Biblia de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4CqxUKm9fmQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4CqxUKm9fmQ",
+      "contentUrl": "https://www.youtube.com/shorts/4CqxUKm9fmQ",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-14",
+      "duration": "PT1M32S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Alza tu vara – Éxodo 14 | Dios pelea tus batallas",
+      "description": "Alza tu vara – Éxodo 14 | Dios pelea tus batallas. Versículos de la Biblia de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/osq7QoQYWaQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/osq7QoQYWaQ",
+      "contentUrl": "https://www.youtube.com/shorts/osq7QoQYWaQ",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-13",
+      "duration": "PT2M0S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Dios cierra la boca de tus leones | Daniel en el foso",
+      "description": "Dios cierra la boca de tus leones | Daniel en el foso. Mensajes cristianos de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OjCz9mSmJfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/OjCz9mSmJfU",
+      "contentUrl": "https://www.youtube.com/shorts/OjCz9mSmJfU",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-11",
+      "duration": "PT1M9S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Salmo 91: oración musical poderosa de protección",
+      "description": "Salmo 91: oración musical poderosa de protección. Versículos de la Biblia de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1je5kKyqPP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1je5kKyqPP4",
+      "contentUrl": "https://www.youtube.com/shorts/1je5kKyqPP4",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-08",
+      "duration": "PT1M15S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Tú eres mi escudo – Salmo 3 | Canción cristiana",
+      "description": "Tú eres mi escudo – Salmo 3 | Canción cristiana. Versículos de la Biblia de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SjOhkepbSkQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/SjOhkepbSkQ",
+      "contentUrl": "https://www.youtube.com/shorts/SjOhkepbSkQ",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-07",
+      "duration": "PT1M14S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "El beso de plata: Judas, ¿por qué besas con veneno?",
+      "description": "El beso de plata: Judas, ¿por qué besas con veneno?. Mensajes cristianos de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T8WN-sMNkKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/T8WN-sMNkKI",
+      "contentUrl": "https://www.youtube.com/shorts/T8WN-sMNkKI",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-06",
+      "duration": "PT1M15S"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Tus palabras son puras – Salmo 12 | Canción cristiana",
+      "description": "Tus palabras son puras – Salmo 12 | Canción cristiana. Versículos de la Biblia de León de Judá: música cristiana y alabanzas en español.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tPBvIIh_Bek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/tPBvIIh_Bek",
+      "contentUrl": "https://www.youtube.com/shorts/tPBvIIh_Bek",
+      "inLanguage": "es",
+      "author": {
+        "@id": "https://leondejudamusica.es/#artista"
+      },
+      "uploadDate": "2026-10-04",
+      "duration": "PT1M12S"
+    }
   ]
 }
   </script>
@@ -188,6 +373,8 @@
       <div>
         <h2>Sobre nosotros</h2>
         <p>León de Judá es un proyecto de música cristiana en español nacido para exaltar a Jesús, el León de la tribu de Judá. Convertimos salmos y versículos de la Biblia en canciones, y compartimos alabanzas de adoración, protección y esperanza para acompañarte en la oración, en los momentos difíciles y en tu día a día con Dios. Nuestro deseo es que cada canción te recuerde que el Señor pelea por ti y que en Él siempre hay victoria.</p>
+        <p>En nuestro canal de YouTube encontrarás salmos cantados como el Salmo 91, el Salmo 3, el Salmo 12 o el Salmo 30, recopilaciones de canciones cristianas para adorar, alabanzas para vencer el miedo y la ansiedad, y canciones inspiradas en historias bíblicas como Daniel en el foso de los leones, el paso del mar Rojo o la traición de Judas. También publicamos breves mensajes cristianos de ánimo para quienes sienten que ya no pueden más.</p>
+        <p>Hacemos música para los hermanos y hermanas de habla hispana en España y Latinoamérica: alabanzas sencillas, con la Palabra de Dios en el centro, para escuchar en casa, en el coche, en la iglesia o en tu tiempo devocional. Suscríbete en YouTube, síguenos en Spotify y en Pinterest, y comparte estas canciones con quien necesite una palabra de fe y esperanza.</p>
         <p class="sign">Dios te bendiga. ✦</p>
       </div>
     </section>
@@ -198,6 +385,7 @@
     <nav aria-label="Redes">
       <a href="https://www.youtube.com/@leondejuda2026" target="_blank" rel="noopener">YouTube</a>
       <a href="https://open.spotify.com/artist/5kA8755RfEC5xxtMwX4qm5" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://es.pinterest.com/leondejuda2026/" target="_blank" rel="noopener">Pinterest</a>
       <a href="#videos">Vídeos</a>
       <a href="#nosotros">Sobre nosotros</a>
     </nav>
